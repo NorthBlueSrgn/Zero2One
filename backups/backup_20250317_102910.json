@@ -1,0 +1,26 @@
+{
+  "user_data": {
+    "attributes": {
+      "Health": 0,
+      "Physical": 0,
+      "Intelligence": 0,
+      "Spiritual": 0,
+      "Creativity": 0,
+      "Resilience": 0
+    },
+    "tasks": {
+      "daily": {},
+      "weekly": {},
+      "one_off": {}
+    },
+    "streak": 0,
+    "last_active": "2025-03-17T10:28:47.852675",
+    "achievements": [],
+    "job": null,
+    "active_events": [],
+    "last_event_check": "2025-03-17T10:28:47.852699",
+    "completed_achievements": []
+  },
+  "saved_at": "2025-03-17T10:29:10.765757",
+  "version": "1.0"
+}

@@ -1,0 +1,247 @@
+/* static/styles/main.css */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --background: #000000;          /* Pure black background */
+    --card-bg: #1a1a1a;            /* Slightly lighter black for cards */
+    --purple-primary: #8B5CF6;      /* Main purple */
+    --purple-light: #A78BFA;        /* Lighter purple */
+    --text-primary: #FFFFFF;        /* White text */
+    --text-secondary: #9CA3AF;      /* Light grey for subtitles */
+    --progress-green: #10B981;      /* Green for progress bars */
+    --progress-bg: rgba(16, 185, 129, 0.1); /* Subtle green background for progress bars */
+    --card-border: 1px solid rgba(139, 92, 246, 0.2);
+    --card-radius: 12px;
+}
+
+/* Base styles */
+.stApp {
+    background-color: var(--background) !important;
+}
+
+.main .block-container {
+    background-color: var(--background) !important;
+    padding: 2rem;
+}
+
+/* Typography */
+h1, h2, h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: var(--purple-primary);
+    margin-bottom: 1rem;
+}
+
+p, span {
+    font-family: 'Rajdhani', sans-serif;
+    color: var(--text-primary);
+}
+
+.subtitle, .caption {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* Attribute Grid Layout */
+.attribute-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+/* Attribute Card */
+.attribute-card {
+    background: var(--card-bg);
+    border-radius: var(--card-radius);
+    padding: 1rem;
+    border: var(--card-border);
+}
+
+.attribute-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.attribute-name {
+    color: var(--purple-primary);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.attribute-value {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+/* Progress Bar */
+.progress-container {
+    background: var(--progress-bg);
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0.5rem 0;
+}
+
+.progress-bar {
+    height: 100%;
+    background: var(--progress-green);
+    transition: width 0.3s ease;
+}
+
+.progress-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 0.3rem;
+}
+
+/* Sidebar Styling */
+.sidebar .sidebar-content {
+    background-color: var(--background) !important;
+    border-right: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+/* Button Styling */
+.stButton > button {
+    background-color: var(--purple-primary);
+    color: var(--text-primary);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--card-radius);
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: var(--purple-light);
+    transform: translateY(-2px);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--purple-primary);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--purple-light);
+}
+/* Add to your main.css */
+:root {
+    --background: #000000;
+    --purple-primary: #8B5CF6;
+    --text-primary: #FFFFFF;
+    --text-secondary: #9CA3AF;
+}
+
+/* Force black background everywhere */
+.stApp, 
+.main .block-container,
+.sidebar .sidebar-content,
+.stMarkdown,
+div[data-testid="stVerticalBlock"] {
+    background-color: var(--background) !important;
+}
+
+/* Quote styling */
+.quote-container {
+    background-color: rgba(139, 92, 246, 0.1);
+    border-left: 4px solid var(--purple-primary);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.quote-text {
+    color: var(--text-secondary);
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Task type styling */
+.task-type {
+    color: var(--purple-primary) !important;
+    font-weight: 500;
+}
+/* Additional background fixes */
+.element-container,
+.stTextInput > div,
+.stSelectbox > div,
+.stMultiSelect > div {
+    background-color: var(--background) !important;
+}
+
+/* Make sure dropdowns and inputs have black backgrounds */
+.stSelectbox select,
+.stTextInput input {
+    background-color: var(--card-bg) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--purple-primary) !important;
+}
+
+/* Fix any remaining white backgrounds */
+div[data-testid="stDecoration"],
+div[data-testid="stToolbar"] {
+    background-color: var(--background) !important;
+}
+/* Add to your main.css */
+.task-card {
+    background: var(--card-bg);
+    border: var(--card-border);
+    border-radius: var(--card-radius);
+    padding: 1rem;
+    margin: 0.5rem 0;
+    transition: all 0.3s ease;
+}
+
+.task-card:hover {
+    border-color: var(--purple-primary);
+    transform: translateY(-2px);
+}
+
+.task-name {
+    color: var(--purple-primary);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.task-points {
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.task-description {
+    color: var(--text-secondary);
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.tasks-progress {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background: var(--card-bg);
+    border-radius: var(--card-radius);
+}
+.attribute-card {
+    transition: all 0.3s ease;
+    cursor: help;  /* Shows question mark cursor on hover */
+}
+
+.attribute-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(139, 92, 246, 0.3);
+}
+
+
+

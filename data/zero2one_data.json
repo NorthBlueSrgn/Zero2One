@@ -1,0 +1,307 @@
+{
+  "user_data": {
+    "attributes": {
+      "Health": 22.0,
+      "Physical": 6,
+      "Intelligence": 16.0,
+      "Spiritual": 9.0,
+      "Creativity": 5,
+      "Resilience": 10.0
+    },
+    "tasks": {
+      "daily": {
+        "daily_1742313975.484436": {
+          "id": "daily_1742313975.484436",
+          "name": "heat",
+          "description": "",
+          "type": "daily",
+          "attribute": "Health",
+          "points": 1,
+          "completed": false,
+          "created_at": "2025-03-18T16:06:15.484449",
+          "streak": 0
+        }
+      },
+      "weekly": {},
+      "one_off": {}
+    },
+    "streak": 0,
+    "last_active": "2025-03-22T13:20:07.171529",
+    "achievements": [],
+    "completed_achievements": [
+      "first_step"
+    ],
+    "job": null,
+    "job_history": [
+      {
+        "job": "Master of None",
+        "accepted_at": "2025-03-21T08:30:04.167197"
+      }
+    ],
+    "active_events": [
+      {
+        "name": "Double Points",
+        "description": "All tasks give double points!",
+        "duration": 24,
+        "multiplier": 2.0,
+        "icon": "\u2728",
+        "rarity": "Common",
+        "trigger_chance": 0.1,
+        "type": "positive",
+        "effects": {
+          "point_multiplier": 2.0
+        },
+        "start_time": "2025-03-22T06:43:10.513179",
+        "completed": false
+      }
+    ],
+    "last_event_check": "2025-03-22T13:16:54.522244",
+    "multipliers": {
+      "streak": 1.0,
+      "job": 1.0
+    },
+    "event_history": [
+      {
+        "name": "Double Points",
+        "description": "All tasks give double points!",
+        "duration": 24,
+        "multiplier": 2.0,
+        "icon": "\u2728",
+        "rarity": "Common",
+        "trigger_chance": 0.1,
+        "start_time": "2025-03-18T20:02:11.595378",
+        "completed_at": "2025-03-19T20:28:14.801092"
+      },
+      {
+        "name": "Double Points",
+        "description": "All tasks give double points!",
+        "duration": 24,
+        "multiplier": 2.0,
+        "icon": "\u2728",
+        "rarity": "Common",
+        "trigger_chance": 0.1,
+        "start_time": "2025-03-19T08:04:19.336604",
+        "completed_at": "2025-03-20T08:23:50.686044"
+      },
+      {
+        "name": "Double Points",
+        "description": "All tasks give double points!",
+        "duration": 24,
+        "multiplier": 2.0,
+        "icon": "\u2728",
+        "rarity": "Common",
+        "trigger_chance": 0.1,
+        "type": "positive",
+        "effects": {
+          "point_multiplier": 2.0
+        },
+        "start_time": "2025-03-20T00:14:39.510422",
+        "completed": false,
+        "completed_at": "2025-03-21T03:41:48.154940"
+      },
+      {
+        "name": "Perfect Day Challenge",
+        "description": "Complete all tasks perfectly for bonus rewards",
+        "duration": 24,
+        "icon": "\ud83c\udfaf",
+        "rarity": "Uncommon",
+        "trigger_chance": 0.05,
+        "type": "challenge",
+        "success_reward": {
+          "all_attributes": 5,
+          "streak_bonus": 1
+        },
+        "failure_penalty": {
+          "streak_reduction": 1
+        },
+        "start_time": "2025-03-20T06:06:15.891770",
+        "completed": false,
+        "completed_at": "2025-03-21T07:14:48.652973"
+      },
+      {
+        "name": "Double Points",
+        "description": "All tasks give double points!",
+        "duration": 24,
+        "multiplier": 2.0,
+        "icon": "\u2728",
+        "rarity": "Common",
+        "trigger_chance": 0.1,
+        "type": "positive",
+        "effects": {
+          "point_multiplier": 2.0
+        },
+        "start_time": "2025-03-20T16:21:41.980655",
+        "completed": false,
+        "completed_at": "2025-03-21T19:47:11.072592"
+      },
+      {
+        "name": "Double Points",
+        "description": "All tasks give double points!",
+        "duration": 24,
+        "multiplier": 2.0,
+        "icon": "\u2728",
+        "rarity": "Common",
+        "trigger_chance": 0.1,
+        "type": "positive",
+        "effects": {
+          "point_multiplier": 2.0
+        },
+        "start_time": "2025-03-20T22:40:40.157013",
+        "completed": false,
+        "completed_at": "2025-03-21T22:44:30.795804"
+      },
+      {
+        "name": "Streak Power",
+        "description": "Streak multiplier doubled",
+        "duration": 24,
+        "multiplier": 2.0,
+        "icon": "\ud83d\udd25",
+        "rarity": "Epic",
+        "trigger_chance": 0.01,
+        "type": "positive",
+        "effects": {
+          "streak_multiplier": 2.0
+        },
+        "start_time": "2025-03-21T08:29:05.356895",
+        "completed": false,
+        "completed_at": "2025-03-22T11:53:14.579776"
+      },
+      {
+        "name": "Double Points",
+        "description": "All tasks give double points!",
+        "duration": 24,
+        "multiplier": 2.0,
+        "icon": "\u2728",
+        "rarity": "Common",
+        "trigger_chance": 0.1,
+        "type": "positive",
+        "effects": {
+          "point_multiplier": 2.0
+        },
+        "start_time": "2025-03-21T12:06:38.590865",
+        "completed": false,
+        "completed_at": "2025-03-22T13:16:54.522475"
+      }
+    ],
+    "current_job": "Master of None"
+  },
+  "tasks": {
+    "daily": {
+      "daily_1742402489.690417": {
+        "id": "daily_1742402489.690417",
+        "name": "Drink 2l water",
+        "description": "Good for you",
+        "type": "daily",
+        "attribute": "Health",
+        "points": 1,
+        "completed": false,
+        "created_at": "2025-03-19T16:41:29.690428",
+        "completed_at": null
+      },
+      "daily_1742408787.370124": {
+        "id": "daily_1742408787.370124",
+        "name": "2 Hours of Spanish ",
+        "description": "Something Comprehensible like Dreaming Spanish.",
+        "type": "daily",
+        "attribute": "Intelligence",
+        "points": 1,
+        "completed": false,
+        "created_at": "2025-03-19T18:26:27.370136",
+        "completed_at": null
+      },
+      "daily_1742454976.163144": {
+        "id": "daily_1742454976.163144",
+        "name": "Pray morning and night",
+        "description": "The foundational steps to get closer with God.",
+        "type": "daily",
+        "attribute": "Spiritual",
+        "points": 1,
+        "completed": false,
+        "created_at": "2025-03-20T07:16:16.163156",
+        "completed_at": null
+      },
+      "daily_1742455164.315603": {
+        "id": "daily_1742455164.315603",
+        "name": "Read 10 pages of a book",
+        "description": "Knowledge is power in its own right. (Audiobooks are also applicable).",
+        "type": "daily",
+        "attribute": "Intelligence",
+        "points": 1,
+        "completed": false,
+        "created_at": "2025-03-20T07:19:24.315613",
+        "completed_at": null
+      },
+      "daily_1742455529.357975": {
+        "id": "daily_1742455529.357975",
+        "name": "Chess Puzzles ",
+        "description": "Exercise that brain like it\u2019s your favorite muscle. Checkmate your way to mental greatness\u2014no sweat involved.",
+        "type": "daily",
+        "attribute": "Intelligence",
+        "points": 1,
+        "completed": true,
+        "created_at": "2025-03-20T07:25:29.357985",
+        "completed_at": "2025-03-22T07:07:08.296105"
+      },
+      "daily_1742455616.078686": {
+        "id": "daily_1742455616.078686",
+        "name": "Apply for roughly 5 jobs a day",
+        "description": "Hustle mode: ON. Apply like your life depends on it... because it kind of does. Keep those rejection emails coming!",
+        "type": "daily",
+        "attribute": "Resilience",
+        "points": 1,
+        "completed": true,
+        "created_at": "2025-03-20T07:26:56.078697",
+        "completed_at": "2025-03-22T13:17:05.725296"
+      },
+      "daily_1742457157.962152": {
+        "id": "daily_1742457157.962152",
+        "name": "Eat Clean",
+        "description": "Fuel your body like it\u2019s a high-performance machine. No processed junk, just whole foods , high protein , high veg , low carb and homemade.",
+        "type": "daily",
+        "attribute": "Health",
+        "points": 1,
+        "completed": false,
+        "created_at": "2025-03-20T07:52:37.962163",
+        "completed_at": null
+      }
+    },
+    "weekly": {
+      "weekly_1742456284.659991": {
+        "id": "weekly_1742456284.659991",
+        "name": "Practice football technique ",
+        "description": "Perfect your technique like Neymar\u2014fluid, unpredictable, and always one step ahead of the defenders.",
+        "type": "weekly",
+        "attribute": "Physical",
+        "points": 3,
+        "completed": false,
+        "created_at": "2025-03-20T07:38:04.660002"
+      },
+      "weekly_1742456385.951892": {
+        "id": "weekly_1742456385.951892",
+        "name": "Project TOJI",
+        "description": "Train like you're the sorcerer killer himself and get in the gym 4 times. Each rep brings you closer to becoming a powerhouse.",
+        "type": "weekly",
+        "attribute": "Physical",
+        "points": 4,
+        "completed": false,
+        "created_at": "2025-03-20T07:39:45.951903"
+      },
+      "weekly_1742456579.921975": {
+        "id": "weekly_1742456579.921975",
+        "name": "North's Toks",
+        "description": "Editing isn\u2019t just work\u2014it\u2019s creating art. Every transition and cut is an opportunity to elevate your craft, like painting with pixels. Make 2 edits per week .",
+        "type": "weekly",
+        "attribute": "Creativity",
+        "points": 2,
+        "completed": false,
+        "created_at": "2025-03-20T07:42:59.921990"
+      }
+    },
+    "one_off": {},
+    "special": {}
+  },
+  "locked_attributes": {},
+  "penalty_history": [],
+  "saved_at": "2025-03-22T13:20:07.174075",
+  "version": "1.0"
+}
